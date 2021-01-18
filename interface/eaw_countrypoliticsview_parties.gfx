@@ -1,0 +1,10 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_ideology_GAE_unionism_group"
+		texturefile = "gfx/interface/ideologies/GAE/UEP.dds"
+	}
+	
+	
+	
+}

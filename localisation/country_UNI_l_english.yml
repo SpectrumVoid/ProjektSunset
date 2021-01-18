@@ -1,0 +1,42 @@
+﻿l_english:
+ ### PARTIES ###
+ UNI_neutrality_party:0 "Military Junta"
+ UNI_neutrality_party_long:0 "Military Junta"
+ UNI_communism_party:0 "UEP"
+ UNI_communism_party_long:0 "United Earth Party"
+ UNI_democratic_party:0 "House Platinum"
+ UNI_democratic_party_long:0 "House Platinum"
+ UNI_fascism_party:0 "House Platinum"
+ UNI_fascism_party_long:0 "House Platinum"
+ 
+ ### FOCUS ###
+ #Go with Equestria
+ UNI_QueenOfUnicorns:0 "Queen of All Unicorns"
+ UNI_QueenOfUnicorns_desc:0 "We may be New Marelanders, but we were all once Equestrians. We are still loyal subjects to the Princesses and share many common bonds with our brothers and sisters across the sea.\n\nWe should reaffirm our commitments to our fellow Equestrians, and bind our destiny to theirs."
+ 
+ UNI_HeadsRoll:0 "Heads Will Roll"
+ UNI_HeadsRoll_desc:0 "Heads will roll."
+ 
+ UNI_Royal_Census:0 "The Royal Census"
+ UNI_Royal_Census_desc:0 "The Royal Census"
+ 
+ UNI_Serfs:0 "Put Them In Their Place"
+ UNI_Serfs_desc:0 "The slaves must know their place in my Kingdom"
+ 
+ UNI_Collect_Taxes:0 "Collect Taxes"
+ UNI_Collect_Taxes_desc:0 "Collect Taxes"
+ 
+ UNI_Inspect_Military:0 "Inspect The Military"
+ UNI_Inspect_Military_desc:0 "Inspect The Military"
+ 
+ UNI_new_cabinet:0 "A New Cabinet"
+ UNI_new_cabinet_desc:0 "This new Cabinet better not fail me"
+ 
+ UNI_Threaten_Nobles:0 "Threaten The Nobles"
+ UNI_Threaten_Nobles_desc:0 "The nobles have their place and it is beneath we."
+
+ ### EVENTS ###
+ lightning.1.t:0 "Make Peace with the Changelings?"
+ lightning.1.d:0 "The war is turning rapidly in favour of the Changeling Queendom. Further resistance is always possible, of course, but at this point, we must consider the possibility of seeking a separate piece with the Changelings."
+ lightning.1.a:0 "We must save ourselves."
+ lightning.1.b:0 "We shall never give up on our fellow ponies!"

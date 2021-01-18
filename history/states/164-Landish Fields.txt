@@ -1,0 +1,21 @@
+
+state={
+	id=164
+	name="STATE_164"
+
+	history={
+		owner = TRO
+		add_core_of = TRO
+		add_core_of = TRO
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		574 10244 11066
+	}
+	manpower=48880
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

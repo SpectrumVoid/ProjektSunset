@@ -1,0 +1,175 @@
+focus_tree = {
+	id = unicornia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 5
+			original_tag = UNI
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 0 y = 2475 }
+
+    focus = {
+		id = UNI_QueenOfUnicorns
+		icon = GFX_goal_generic_equestria
+		
+		x = 0
+		y = 0
+		
+		cost = 1
+		prerequisite = {}
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = {
+		id = UNI_HeadsRoll
+		icon = GFX_goal_generic_equestria
+		x = 0
+		y = 1
+			cost = 1
+				prerequisite = {
+				focus = UNI_QueenOfUnicorns
+			}
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	
+	focus = {
+		id = UNI_Serfs
+		icon = GFX_goal_generic_equestria
+		x = 2
+		y = 1
+			cost = 1
+				prerequisite = {
+				focus = UNI_QueenOfUnicorns
+			}
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	
+	focus = {
+		id = UNI_Royal_Census
+		icon = GFX_goal_generic_equestria
+		x = -2
+		y = 1
+			cost = 1
+				prerequisite = {
+				focus = UNI_QueenOfUnicorns
+			}
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	
+	focus = {
+		id = UNI_Inspect_Military
+		icon = GFX_goal_generic_equestria
+		x = -1
+		y = 2
+			cost = 1
+				prerequisite = {
+				focus = UNI_Royal_Census
+			}
+				prerequisite = {
+				focus = UNI_HeadsRoll
+			}
+			
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	
+	focus = {
+		id = UNI_new_cabinet
+		icon = GFX_goal_generic_equestria
+		x = 0
+		y = 3
+			cost = 1
+				prerequisite = {
+				focus = UNI_HeadsRoll
+				}
+				prerequisite = {
+				focus = UNI_Inspect_Military
+				}
+				
+				prerequisite = {
+				focus = UNI_Threaten_Nobles
+				}
+				
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	
+	focus = {
+		id = UNI_Collect_Taxes
+		icon = GFX_goal_generic_equestria
+		x = -3
+		y = 2
+			cost = 1
+				prerequisite = {
+				focus = UNI_Royal_Census
+			}
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+			ai_will_do = {
+				factor = 1
+			}
+	}
+	
+	focus = {
+		id = UNI_Threaten_Nobles
+		icon = GFX_goal_generic_equestria
+		x = 1
+		y = 2
+			cost = 1
+				prerequisite = {
+				focus = UNI_HeadsRoll
+			}
+				prerequisite = {
+				focus = UNI_Serfs
+				}
+				
+		mutually_exclusive = {}
+		available = {}
+		bypass = {}
+		completion_reward = {}
+			ai_will_do = {
+				factor = 1
+			}
+	}
